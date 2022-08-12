@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KonusarakOgren.Repository.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220811230215_InitialCreate2")]
-    partial class InitialCreate2
+    [Migration("20220812060717_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -107,7 +107,7 @@ namespace KonusarakOgren.Repository.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 8, 12, 2, 2, 15, 47, DateTimeKind.Local).AddTicks(7459),
+                            CreatedDate = new DateTime(2022, 8, 12, 9, 7, 17, 468, DateTimeKind.Local).AddTicks(8559),
                             Name = "Kalem 1",
                             Price = 100m,
                             Stock = 20
@@ -116,7 +116,7 @@ namespace KonusarakOgren.Repository.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 8, 12, 2, 2, 15, 47, DateTimeKind.Local).AddTicks(7471),
+                            CreatedDate = new DateTime(2022, 8, 12, 9, 7, 17, 468, DateTimeKind.Local).AddTicks(8571),
                             Name = "Kalem 2",
                             Price = 200m,
                             Stock = 30
@@ -125,7 +125,7 @@ namespace KonusarakOgren.Repository.Migrations
                         {
                             Id = 3,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 8, 12, 2, 2, 15, 47, DateTimeKind.Local).AddTicks(7472),
+                            CreatedDate = new DateTime(2022, 8, 12, 9, 7, 17, 468, DateTimeKind.Local).AddTicks(8573),
                             Name = "Kalem 3",
                             Price = 600m,
                             Stock = 60
@@ -134,7 +134,7 @@ namespace KonusarakOgren.Repository.Migrations
                         {
                             Id = 4,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 12, 2, 2, 15, 47, DateTimeKind.Local).AddTicks(7474),
+                            CreatedDate = new DateTime(2022, 8, 12, 9, 7, 17, 468, DateTimeKind.Local).AddTicks(8575),
                             Name = "Kitap 1",
                             Price = 600m,
                             Stock = 60
@@ -143,7 +143,7 @@ namespace KonusarakOgren.Repository.Migrations
                         {
                             Id = 5,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 8, 12, 2, 2, 15, 47, DateTimeKind.Local).AddTicks(7475),
+                            CreatedDate = new DateTime(2022, 8, 12, 9, 7, 17, 468, DateTimeKind.Local).AddTicks(8576),
                             Name = "Kitap 2",
                             Price = 6600m,
                             Stock = 320
