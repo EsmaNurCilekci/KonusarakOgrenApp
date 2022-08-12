@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KonusarakOgren.Core", "KonusarakOgren.Core\KonusarakOgren.Core.csproj", "{B6A81E1D-C679-47B9-AD15-319F5C0906BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KonusarakOgren.Repository", "KonusarakOgren.Repository\KonusarakOgren.Repository.csproj", "{D214363A-46F0-48F8-B117-B192655DD3D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KonusarakOgren.Service", "KonusarakOgren.Service\KonusarakOgren.Service.csproj", "{FD822537-3CC5-489A-B11A-C20D623AFC22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KonusarakOgren.Webb", "KonusarakOgren.Webb\KonusarakOgren.Webb.csproj", "{46B45E02-76E4-4255-B9B6-78E924595BA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KonusarakOgren.Caching", "KonusarakOgren.Caching\KonusarakOgren.Caching.csproj", "{9E1D5EF2-6930-446C-B362-CCAAB755A4FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KonusarakOgren.API", "KonusarakOgren.API\KonusarakOgren.API.csproj", "{C0291BE5-6077-42EF-A6D1-CB14BC34A389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6A81E1D-C679-47B9-AD15-319F5C0906BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A81E1D-C679-47B9-AD15-319F5C0906BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A81E1D-C679-47B9-AD15-319F5C0906BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A81E1D-C679-47B9-AD15-319F5C0906BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D214363A-46F0-48F8-B117-B192655DD3D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D214363A-46F0-48F8-B117-B192655DD3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D214363A-46F0-48F8-B117-B192655DD3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D214363A-46F0-48F8-B117-B192655DD3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD822537-3CC5-489A-B11A-C20D623AFC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD822537-3CC5-489A-B11A-C20D623AFC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD822537-3CC5-489A-B11A-C20D623AFC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD822537-3CC5-489A-B11A-C20D623AFC22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B45E02-76E4-4255-B9B6-78E924595BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B45E02-76E4-4255-B9B6-78E924595BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B45E02-76E4-4255-B9B6-78E924595BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B45E02-76E4-4255-B9B6-78E924595BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1D5EF2-6930-446C-B362-CCAAB755A4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1D5EF2-6930-446C-B362-CCAAB755A4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1D5EF2-6930-446C-B362-CCAAB755A4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1D5EF2-6930-446C-B362-CCAAB755A4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0291BE5-6077-42EF-A6D1-CB14BC34A389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0291BE5-6077-42EF-A6D1-CB14BC34A389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0291BE5-6077-42EF-A6D1-CB14BC34A389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0291BE5-6077-42EF-A6D1-CB14BC34A389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE0E6E9C-3CD5-4F26-9C49-DE3209E87574}
+	EndGlobalSection
+EndGlobal
